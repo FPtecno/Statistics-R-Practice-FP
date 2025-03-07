@@ -1,0 +1,85 @@
+---
+title: "Exploring the BRFSS data"
+output: 
+  html_document: 
+    fig_height: 4
+    highlight: pygments
+    theme: spacelab
+---
+
+## Setup
+
+### Load packages
+
+```{r load-packages, message = FALSE}
+library(ggplot2)
+library(dplyr)
+```
+
+### Load data
+
+Make sure your data and R Markdown files are in the same directory. When loaded
+your data file will be called `brfss2013`. Delete this note when before you submit 
+your work. 
+
+```{r load-data}
+
+```
+
+
+
+* * *
+
+## Part 1: Data
+
+This database was performing using a random sample, where they picked up all 50 states in an anually way.
+The results can be generalized to the US population because they picked up all 50 states in a random manner.
+The main that this is a random sampling, but no random assignment was used (celular, telephone and private countries).
+Because of that, its generalizable but not causal data.
+
+* * *
+
+## Part 2: Research questions
+
+**Research quesion 1:** What is the relation between income and education among adults?
+Discussion: This question is of interest because it can shed light on health disparities and the impact of social determinants on chronic disease outcomes. Understanding these relationships can help target public health interventions and policies to reduce health inequities.
+Use this variables: income2, educa
+
+**Research quesion 2:** What is the relationship between physical activity levels, dietary habits, and obesity rates among different age groups?
+Discussion: This question is relevant as it explores the behavioral factors contributing to obesity, a major public health concern. By examining how lifestyle choices vary with age and their impact on obesity, we can better design age-specific health promotion programs.
+Use this variables: exerany2, fruit1, wheight2
+
+**Research quesion 3:** How does smoking status, alcohol consumption, and mental health (e.g., stress, depression) influence the risk of cardiovascular diseases? Discussion: This question is interesting as it delves into the interplay between lifestyle behaviors and mental health on cardiovascular disease risk. Insights from this research could inform comprehensive strategies for cardiovascular disease prevention that address both mental health and lifestyle factors.
+Use this variables: smoke100, avedrnk2, cvdinfr4
+
+
+* * *
+
+## Part 3: Exploratory data analysis
+
+NOTE: Insert code chunks as needed by clicking on the "Insert a new code chunk" 
+button (green button with orange arrow) above. Make sure that your code is visible
+in the project you submit. Delete this note when before you submit your work.
+
+**Research quesion 1:**
+
+```{r}
+
+```
+
+
+
+**Research quesion 2:**
+
+```{r}
+
+```
+
+
+
+**Research quesion 3:**
+
+```{r}
+
+```
+
